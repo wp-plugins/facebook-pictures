@@ -1,0 +1,76 @@
+.widget .photo-wrapper {
+	float: left;
+	width: 44%;
+	margin-right: 2%;
+	background: #DEDEDE;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+
+.widget .photo-wrapper a {
+	display: block;
+	line-height: 0;
+}
+
+.widget .fb-photo {
+	max-width: 100%;
+}
+
+.widget .album-wrapper {
+	max-width: 188px;
+	margin-bottom: 8%;
+	float: left;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.widget .album-cover {
+	padding: 2%;
+	background: #DEDEDE;
+	line-height: 0;
+	width: 92%;
+	margin-left: 1%;
+	margin-bottom: 2%;
+}
+
+.widget .small-photos-wrapper {
+	float: left;
+	width: 44%;
+	max-height: 58px;
+	overflow: hidden;
+	border: 3px solid #DEDEDE;
+	margin-bottom: 3%;
+}
+
+.widget .small-photos-wrapper.left {
+	margin-left: 1%;
+}
+
+.widget .small-photos-wrapper.right {
+	margin-left: 2%;
+}
+
+.widget .album-info a {
+	line-height: 1.3em;
+}
+
+.widget .album-info p {
+	font-size: 11px;
+	color: #777;
+	margin: 0;
+}
+
+#TB_overlay {
+	z-index: 9998 !important;
+}
+
+#TB_window, #TB_load {
+	z-index: 9999 !important;
+}
+
+@media (max-width: 800px) {
+	.widget .album-wrapper {
+		width: 29%;
+		margin: 2% 2%;
+		border: 0;
+	}
+}

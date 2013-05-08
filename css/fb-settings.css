@@ -1,0 +1,86 @@
+.fb-wrapper form table {
+	width: 360px;
+}
+
+.fb-wrapper form table label {
+	font-size: 15px;
+}
+
+.fb-wrapper form table input {
+	width: 100%;
+}
+
+#link-fb {
+	margin: 10px 0;
+}
+
+#link-fb label {
+	cursor: auto;
+	font-size: 24px;
+	margin-right: 20px;
+}
+
+input.button-primary.save {
+	position: absolute;
+	bottom: -50px;
+	width: auto;
+}
+
+.fb-wrapper {
+	position: relative;
+}
+
+.facebook-accounts .account, .facebook-accounts .page {
+	width: 90px;
+	text-align: center;
+	float: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+.facebook-accounts .account:hover,
+.facebook-accounts .account:focus,
+.facebook-accounts .page:hover,
+.facebook-accounts .page:focus {
+	cursor: pointer;
+}
+
+.facebook-accounts .account .hidden, .facebook-accounts .page .hidden{
+	display: none;
+}
+
+.facebook-accounts .account img, .facebook-accounts .page img {
+	border: 3px double #7C7C7C;
+}
+
+.facebook-accounts .account h2, .facebook-accounts .page h2 {
+	font-size: 12px;
+	margin: 0;
+}
+
+.facebook-accounts .account.selected, .facebook-accounts .page.selected  {
+	background: #B5E7E7;
+	border: 2px solid #54A2A2;
+	border-radius: 7px;
+}
+
+.wrap {
+	width: 60%;
+}
+
+.wrap .help {
+	background: #F7FB7F;
+	border: 2px solid #C9CC62;
+	padding: 8px 10px;
+	font-size: 13px;
+	margin: 17px 0;
+}
+
+.wrap .help p {
+	margin: 6px 0 4px;
+}
+
+.wrap .fb-app {
+	margin: 10px 0;
+	font-size: 13px;
+}
